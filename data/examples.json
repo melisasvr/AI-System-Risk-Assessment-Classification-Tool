@@ -1,0 +1,52 @@
+[
+  {
+    "owner": "Demo governance team",
+    "purpose": "Organise public technical documents into searchable topic categories for internal staff.",
+    "data_description": "Public documentation only, with no personal identifiers.",
+    "affected_people": "Internal engineering staff reading documentation.",
+    "domain": "Internal productivity",
+    "screening_complete": true,
+    "eu_scope": "Unknown",
+    "name": "Documentation organiser"
+  },
+  {
+    "owner": "Demo governance team",
+    "purpose": "Answer customer support questions using approved product documentation, with escalation to staff for account decisions.",
+    "data_description": "Customer messages and account contact details.",
+    "affected_people": "Customers interacting with the assistant and support staff.",
+    "domain": "Customer support",
+    "screening_complete": true,
+    "eu_scope": "Unknown",
+    "name": "Customer support assistant",
+    "public_facing": true,
+    "generates_content": true,
+    "data_type": "Personal"
+  },
+  {
+    "owner": "Demo governance team",
+    "purpose": "Rank job applicants by job-relevant evidence to support recruiter shortlisting decisions.",
+    "data_description": "Applicant CVs, employment history and job-relevant assessment results.",
+    "affected_people": "Job applicants and recruiting staff.",
+    "domain": "Hiring / employment",
+    "screening_complete": true,
+    "eu_scope": "Unknown",
+    "name": "Candidate ranking assistant",
+    "consequential_decisions": true,
+    "data_type": "Personal",
+    "autonomy": "Human approves"
+  },
+  {
+    "owner": "Demo governance team",
+    "purpose": "Infer employee emotions from cameras for workforce performance assessment, without a medical or safety purpose.",
+    "data_description": "Workplace camera recordings and inferred employee emotional states.",
+    "affected_people": "Employees monitored by workplace cameras and their managers.",
+    "domain": "Hiring / employment",
+    "screening_complete": true,
+    "eu_scope": "Unknown",
+    "name": "Workplace emotion surveillance",
+    "prohibited_practices": [
+      "emotion"
+    ],
+    "data_type": "Sensitive / biometric"
+  }
+]
